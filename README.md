@@ -217,10 +217,4 @@ Audit trail
 
 No Redis, Celery or other queue is required for this version.
 
-## UI
 
-The existing VERIX UI is intentionally preserved. The migration replaces the Lovable/TanStack Start runtime with a normal Vite client build without redesigning the visual system, components, colors, typography, navigation or workflow screens.
-
-## Suggested free/fast deployment later
-
-The project is intentionally local-first. When you're ready, the frontend and FastAPI service can be deployed separately on a free/low-cost web host, while Supabase, S3 and Bedrock remain managed services.
